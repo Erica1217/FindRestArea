@@ -1,4 +1,4 @@
-package com.example.dsm2015.myapplication;
+package com.example.dsm2015.findRestArea;
 
 import android.Manifest;
 import android.app.Activity;
@@ -11,7 +11,6 @@ import android.os.Bundle;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.util.Log;
-import android.view.View;
 
 /**
  * Created by dsm2015 on 2017-04-06.

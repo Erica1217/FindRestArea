@@ -1,4 +1,4 @@
-package com.example.dsm2015.myapplication;
+package com.example.dsm2015.findRestArea;
 
 import android.Manifest;
 import android.content.pm.PackageManager;
