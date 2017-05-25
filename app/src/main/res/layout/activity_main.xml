@@ -4,16 +4,18 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <EditText
-        android:id="@+id/edittext_highway"
-        android:hint="고속도로를 입력하세요"
+    <!--사용자가 문자열 입력 시 자동으로 보여줄 문자열들은 ArrayAdapter를 사용해서 자동완성 텍스트뷰에 설정해야 한다-->
+    <AutoCompleteTextView
+        android:id="@+id/search_text"
+        android:hint="휴게소명이나 고속도로를 입력하세요"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:completionThreshold="1"
+        />
 
-    <fragment
-        android:id="@+id/map"
-        android:name="com.google.android.gms.maps.MapFragment"
+    <FrameLayout
+        android:id="@+id/frame_layout"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
-
+        android:layout_height="match_parent">
+    </FrameLayout>
 </LinearLayout>

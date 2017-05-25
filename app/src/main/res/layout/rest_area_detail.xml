@@ -2,20 +2,5 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
-    <EditText
-        android:id="@+id/edittext_highway"
-        android:hint="고소도로를 입력하세요"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="30dp">
-        <!--방향선택 버튼 추가-->
-    </LinearLayout>
-    <ListView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-        <!--그리드레이아웃으로 구현-->
-    </ListView>
 </LinearLayout>
